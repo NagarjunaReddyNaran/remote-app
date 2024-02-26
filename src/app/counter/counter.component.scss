@@ -1,0 +1,42 @@
+.counter-container {
+    border: 2px dotted red;
+    width: 100%;
+    height: 200px;
+    background-color: #74a6a6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+    .counterLabel {
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+    }
+    
+    .counter {
+        padding: 10px 20px;
+        border: 1px solid black;
+        color: black;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .hostTextContainer {
+        margin-top: 10px;
+        .hostText {
+            width: 400px;
+            border-radius: 20px;
+            border: none;
+            padding: 10px 30px;
+            font-size: 24px;
+            border-bottom: 2px solid blue;
+            color: blue;
+            &:focus {
+                outline: 0;
+            }
+        }
+    }
+
+}

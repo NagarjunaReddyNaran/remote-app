@@ -1,0 +1,11 @@
+<div class="counter-container">
+    <h1 class="counterHeader">This is Remote Application.</h1>
+    <label class="counterLabel">Counter Value : &nbsp; <p class="counterValue">{{counter}}</p></label>
+    <div class="counterAction">
+        <button class="counter" (click)="handleCounter()">Counter</button>
+    </div>
+    <div class="hostTextContainer">
+        <input class="hostText" type="text" (blur)="handleText($event)">
+    </div>
+</div>
+
